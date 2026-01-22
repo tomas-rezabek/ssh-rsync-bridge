@@ -22,7 +22,7 @@ ssh -i "$LOCAL_SSH_KEY" -p "$SRC_PORT" "$SRC_USER@$SRC_SERVER.$HOSTNAME" "if [ -
     sed -i.backup "/[[:space:]]${TAG}\$/d" .ssh/authorized_keys
   fi" || true
 
-# jako posledni smazu loklani .ssh 
+# jako posledni smazu lokalni .ssh 
 rm -f "$LOCAL_SSH_KEY" "$LOCAL_SSH_KEY.pub" "$LOCAL_TMP_PUB" || true
 echo
 echo "HOTOVO, vše uklizeno"
