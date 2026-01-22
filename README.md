@@ -2,7 +2,7 @@
 
 Secure server-to-server file transfer using **rsync over SSH with temporary keys**.
 
-The data is transferred **directly between servers** — your local machine is used only for orchestration and never acts as a buffer.
+The data is transferred **directly between servers**, your local machine is used only for orchestration and never acts as a buffer.
 
 ---
 
