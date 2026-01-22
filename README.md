@@ -36,4 +36,4 @@ The data is transferred **directly between servers**, your local machine is used
 1. Copy the example file:
 
 ```bash
-cp env.example .env
+cp .env.example .env
